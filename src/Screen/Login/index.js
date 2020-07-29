@@ -16,7 +16,8 @@ class Login extends React.Component {
                 <Username
                 value={this.state.username}
                 placeholder='username'
-                onChangeText={text=>{this.setState({username:text})}}/> 
+                onChangeText={text=>{this.setState({username:text})}}/>
+                <Text>{this.state.password}</Text> 
                 <Password
                 value={this.state.password}
                 placeholder='password'
